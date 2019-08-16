@@ -3,4 +3,4 @@ const app = e();
 
 app.use(e.static('./public'));
 
-app.listen(process.env.PORT);
+app.listen(process.env.PORT || 3000);
