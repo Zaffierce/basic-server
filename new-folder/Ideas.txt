@@ -1,0 +1,21 @@
+Portfolio Prep - 
+
+Tell me about yourself:
+	[] 2 or 3 word catchy title, avoid cliches
+		- ??? Software Developer
+	[] Personal headline, like above LinkedIn
+		- Navy Veteran (AZ - 2010 to 2019) with 7+ years of System and Database Administrator experience, specializing in Windows Server 2003/10/16, RHL, and OracleSQL. Currently enrolled at Code Fellows for Software Development in Fullstack JavaScript and will complete school in December 2019. Wanting to find a job in Tokyo and move back to Japan.
+	[] Professional pitch
+		- Hello, my name is Jon Veach.  I just recently separated from the Navy after serving 9 and a half years and I am now enrolled at Code Fellows to become a Software Developer.  In the Navy, my primary job was IT, specializing in System and Database Administration but I dabbled in all things IT.  I learned some very valuable skills during my time and have been able to apply that to my new field.  I really love technology and it is amazing to think of where we were yesterday, where we are today, and where we'll be tomorrow.  And then think about how exactly I fit into all of this and what I can do to contribute to make the future a better place.  I also enjoy the social aspect and that you can't be the lone wolf in the basement - you really have to be social and talk to one another and grow together to make the team and the future a better place.  No matter where the future takes me, I'll be excited for the journey.
+	[] What excites me about tech, 1 - 2 sentences
+		- Tech really excites me because it's constantly changing and improving.  Thinking about where we were 10 years ago, where we are now, and where we'll be 10 years from now.
+	
+Collect assets:
+	[] 100x100 headshot
+	[] 1400x422 banner of me being happy?
+	[] A screenshot of the best looking previous project?
+	[] 2 or 3 nice looking screenshots of other projects
+	
+
+
+Aviation Maintenance Administrationman, US Navy from January 2010 to June 2019.  6+ years IT experience specializing in Windows Server 2003/2008/2016, Red Hat Linux, Windows 2007, Windows 8, Windows 10, HTML, CSS, JavaScript, OracleSQL.  Currently working on A+, Net+, Sec+ and JavaScript certifications.  Interested in all things IT, from building a server, configuring the network or writing the program.  Want to continue growing in the IT community!
