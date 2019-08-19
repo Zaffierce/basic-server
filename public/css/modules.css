@@ -269,6 +269,12 @@ article > .container, article:last-child {
   width: 100%;
 }
 
+#aboutmeimg img{
+  display: block;
+  width: 27%;
+  margin: auto;
+}
+
 .image.avatar48 {
   width: 48px;
   height: 48px;
@@ -277,23 +283,6 @@ article > .container, article:last-child {
   -webkit-animation: colorchange 1s inifintite;
 }
 
-@keyframes colorchange
-    {
-      0%   {background: red;}
-      25%  {background: yellow;}
-      50%  {background: blue;}
-      75%  {background: green;}
-      100% {background: red;}
-    }
-
-    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
-    {
-      0%   {background: red;}
-      25%  {background: yellow;}
-      50%  {background: blue;}
-      75%  {background: green;}
-      100% {background: red;}
-    }
 
 .image.avatar48 img {
   width: 48px;
@@ -542,14 +531,20 @@ input[type="button"],
 }
 
 #main > section.cover {
-  padding: 10em 0;
+  /* padding: 10em 0; */
   background-size: cover;
   background-position: center center;
 }
 
 #main > section.one {
-  background-color: #81918E;
-  background-image: url("../images/banner.jpg");
+  /* background-color: #81918E; */
+  /* background-image: url("../images/banner.jpg"); */
+  animation: colorchangeheader 5s infinite; 
+  -webkit-animation: colorchangeheader 5s inifintite; /* Chrome and Safari */
+}
+
+#main > section.dark h2 , #main > section.dark p {
+  color: black;
 }
 
 #main > section.two {
@@ -563,3 +558,39 @@ input[type="button"],
 #main > section.four {
   background-color: #e8edec;
 }
+
+@keyframes colorchange
+  {
+    0%   {background: red;}
+    25%  {background: yellow;}
+    50%  {background: blue;}
+    75%  {background: green;}
+    100% {background: red;}
+  }
+
+@-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+  {
+    0%   {background: red;}
+    25%  {background: yellow;}
+    50%  {background: blue;}
+    75%  {background: green;}
+    100% {background: red;}
+  }
+
+  @keyframes colorchangeheader
+  {
+    0%   {background-color: rgba(255, 0, 0, 0.3);}
+    25%  {background-color: rgba(255, 255, 0, 0.3);}
+    50%  {background-color: rgba(0, 0, 255, 0.3);}
+    75%  {background-color: rgba(0, 255, 0, 0.3);}
+    100% {background-color: rgba(255, 0, 0, 0.3);}
+  }
+
+@-webkit-keyframes colorchangeheader /* Safari and Chrome - necessary duplicate */
+  {
+    0%   {background-color: rgba(255, 0, 0, 0.3);}
+    25%  {background-color: rgba(255, 255, 0, 0.3);}
+    50%  {background-color: rgba(0, 0, 255, 0.3);}
+    75%  {background-color: rgba(0, 255, 0, 0.3);}
+    100% {background-color: rgba(255, 0, 0, 0.3);}
+  }
